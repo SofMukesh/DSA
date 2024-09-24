@@ -1,0 +1,11 @@
+public class Main{
+    public static void main (String[]args){
+        String str1 = "there is a another name ";
+        
+        StringBuilder sb = new StringBuilder(str1);
+        String reversedstr1 = sb.reverse().toString();
+        
+        System.out.println(reversedstr1);
+        
+        }
+    }
