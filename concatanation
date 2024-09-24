@@ -1,0 +1,21 @@
+public class Main{
+    public static void main (String[]args){
+        String str1 = "y a s p ";
+        String str2 = "o r o E";
+        String str3 = "u e e e";
+         String[]arr1 = str1.split(" ");
+        String[]arr2 = str2.split(" ");
+         String[]arr3 = str3.split(" ");
+       StringBuilder result = new StringBuilder();
+        
+        for (int i = 0; i < arr1.length; i++){
+        result.append(arr1[i]).append (arr2[i]).append (arr3[i]).append(" ");
+            
+           
+            
+        }
+       
+    
+         System.out.println(result.toString().trim());
+        }
+    }
