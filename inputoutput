@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[]args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter your favourite Cricketer:");
+        String cricketer = scanner.nextLine();
+
+        System.out.print("What is the age of " + cricketer);
+        int age = scanner.nextInt();
+
+        System.out.print("Enter the height of " + cricketer);
+        double height = scanner.nextDouble();
+
+        System.out.println("\nSummary of the Cricketer");
+        System.out.println("Name:" +cricketer);
+        System.out.println("Age;" +age);
+        System.out.println("Height" +height);
+
+
+        scanner.close();
+
+
+    }
+}
