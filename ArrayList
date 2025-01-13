@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+    public class Main{
+        public static void main (String[]args){
+            ArrayList<String> bio = new ArrayList<>();
+            bio.add("My  name is Mukesh R");
+            bio.add("I love everyone");
+            bio.add("I only love myself");
+            System.out.println(bio.get(2));
+            bio.remove(2);
+            System.out.println(bio);
+            }
+    }
