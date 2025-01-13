@@ -1,0 +1,13 @@
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<String> list = new LinkedList<>();
+        list.add("What you want?"); 
+        list.add("what is yout name?");
+        list.addFirst("Who are you?"); 
+        System.out.println(list.getFirst());
+        list.removeLast(); 
+        System.out.println(list); 
+    }
+}
